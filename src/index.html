@@ -5,21 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./js/open.js"></script>
   </head>
   <body>
     <header class="header">
       <nav class="nav">
         <a href="#" class="logo">Library</a>
         <ul class="nav-list">
-          <li><button class="nav-list-btn" data-open="books">Книги</button></li>
+          <li>
+            <button class="nav-list-btn" data-open="books">Книги</button>
+          </li>
           <li>
             <button class="nav-list-btn" data-open="customers">
               Відвідувачі
             </button>
-          </li>
-          <li>
-            <button class="nav-list-btn" data-open="cards">Картки</button>
           </li>
           <li>
             <button class="nav-list-btn" data-open="rating">Рейтинги</button>
@@ -33,10 +31,59 @@
       </section>
     </header>
     <main>
-      <section class="books hidden" id="books"></section>
+      <section class="books" id="books">
+        <ul id="books_list">
+          <li
+            style="
+              background-image: url(images/game-of-thrones.jpeg);
+              width: 150px;
+              height: 200;
+            "
+          >
+            <svg width="23" height="23" class="books_rating_img">
+              <use
+                href="images/symbol-defs.svg#icon-star"
+                width="24"
+                height="24"
+              ></use>
+            </svg>
+          </li>
+          <li
+            style="
+              background-image: url(images/harry-potter.jpeg);
+              width: 150px;
+              height: 200;
+            "
+          ></li>
+
+          <li
+            style="
+              background-image: url(images/lord-of-the-rings.jpeg);
+              width: 150px;
+              height: 200;
+            "
+          ></li>
+          <li
+            style="
+              background-image: url(images/hobbit.jpeg);
+              width: 150px;
+              height: 200;
+            "
+          ></li>
+
+          <li
+            style="
+              background-image: url(images/at-the-west-front.jpg);
+              width: 150px;
+              height: 200;
+            "
+          ></li>
+        </ul>
+      </section>
       <section class="customers hidden" id="customers"></section>
-      <section class="cards hidden" id="cards"></section>
       <section class="rating hidden" id="rating"></section>
     </main>
+    <script type="module" src="./js/open.js"></script>
+    <script type="module" src="./js/books.js"></script>
   </body>
 </html>
