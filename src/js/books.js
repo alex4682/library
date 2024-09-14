@@ -1,5 +1,5 @@
 const booksList = document.querySelector("#books_list");
-const books = [
+export const books = [
     {
         image: "&quot;game-of-thrones.b4d417b9.jpeg&quot",
         bookName: "Game of Thrones",
@@ -34,6 +34,34 @@ const books = [
         author: "Erich Maria Remarque",
         year: 1929,
         rating: 4.5,
+    },
+    {
+        image: "&quot;fahrenheit-451.a4f69e9b.jpg&quot",
+        bookName: "Fahrenheit 451",
+        author: "Ray Bradbury",
+        year: 1953,
+        rating: 4.7,
+    },
+    {
+        image: "&quot;little-prince.8d1addbb.jpg&quot",
+        bookName: "The little prince",
+        author: "Antoine de Saint-Exupéry",
+        year: 1943,
+        rating: 4.9,
+    },
+    {
+        image: "&quot;narnia.7a4db71f.jpg&quot",
+        bookName: "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        author: "C.S. Lewis",
+        year: 1950,
+        rating: 4.3,
+    },
+    {
+        image: "&quot;harry-potter-2.57f49c7d.jpg&quot",
+        bookName: "Harry Potter and the Chamber of Secrets",
+        author: "J.K Rawling",
+        year: 1998,
+        rating: 4.4,
     },
 ];
 
