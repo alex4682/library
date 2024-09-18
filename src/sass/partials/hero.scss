@@ -1,3 +1,9 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
 .hero-wrap {
     background-color: #FFB400;
     width: 440px;
@@ -14,4 +20,31 @@
 .hero-title {
     font-size: 50px;
     font-weight: bold;
+}
+
+.add-list {
+    display: flex;
+    gap: 25px;
+    margin-right: 70px;
+    align-items: center;
+}
+
+#add-book {
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffb400;
+    color: #fff;
+    font-size: 20px;
+}
+
+#add-customer {
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffb400;
+    color: #fff;
+    font-size: 20px;
 }
