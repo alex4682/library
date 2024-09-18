@@ -14,7 +14,7 @@ topBooks.forEach(book => {
             <div class="books_list_wrap">
                 <p class="books_list_rating_text">${book.rating}</p> 
                 <svg width="23" height="23" class="books_rating_img">
-                    <use href="/symbol-defs.a8b2e413.svg#icon-star"></use>
+                    <use href="images/symbol-defs.svg#icon-star"></use>
                 </svg>
             </div> 
             <div class="books_text_wrap">
