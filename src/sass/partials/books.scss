@@ -31,7 +31,7 @@
 }
 
 .books_list_rating_text {
-    color: #fff;
+    color: yellow;
     display: flex;
     align-items: center;
 }
@@ -47,16 +47,19 @@
 }
 
 .books_name {
-    color: #fff;
+    color: white;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .books_author {
-    color: #fff;
+    color: white;
     font-size: 20px;
+    font-weight: 500;
 }
 
 .books_year {
-    color: #fff;
+    color: white;
     font-size: 20px;
+    font-weight: 500;
 }
